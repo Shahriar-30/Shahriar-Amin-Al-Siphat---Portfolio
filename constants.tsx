@@ -2,6 +2,17 @@ import React from "react";
 import { Project, SkillCategory, ValueProp } from "./types";
 
 export const PROJECTS: Project[] = [
+    {
+    id: "0",
+    title: "Frogato- E commerce",
+    problem:
+      "Frogato is a modern and responsive ecommerce web application built for a smooth online shopping experience. Users can browse products, view details, manage their cart, and check order summaries with ease. The interface is clean, fast, and fully responsive across all devices. Frogato includes user authentication, profile management, and dynamic cart functionality. Built using React, Chakra UI, and Tailwind CSS, it focuses on performance and usability.",
+    solution: "",
+    techStack: [],
+    imageUrl: "/frogato.png",
+    liveUrl: "https://alsiphat.netlify.app/",
+    githubUrl: "https://shahriar-30.github.io/Quriarbox-Courier-Service/",
+  },
   {
     id: "1",
     title: "QuriarBox",
