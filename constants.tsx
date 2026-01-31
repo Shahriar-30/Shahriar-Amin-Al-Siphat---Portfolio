@@ -2,19 +2,30 @@ import React from "react";
 import { Project, SkillCategory, ValueProp } from "./types";
 
 export const PROJECTS: Project[] = [
-    {
+  {
     id: "0",
+    title: "Shop.Co- E commerce",
+    problem:
+      "Shop.Co is a modern and responsive e-commerce web application built for a smooth online shopping experience. Users can browse products, view details, manage their cart, and check order summaries with ease. The interface is clean, fast, and fully responsive across all devices. Shop.Co includes user authentication, profile management, and dynamic cart functionality. Built using Next.js, TypeScript, Shad CN, and Tailwind CSS, it focuses on performance and usability.",
+    solution: "",
+    techStack: [],
+    imageUrl: "/shopco.png",
+    liveUrl: "https://shopco-plum.vercel.app/",
+    githubUrl: "https://github.com/Shahriar-30/Shop.Co-Nextjs-Typescrpt-",
+  },
+  {
+    id: "1",
     title: "Frogato- E commerce",
     problem:
       "Frogato is a modern and responsive ecommerce web application built for a smooth online shopping experience. Users can browse products, view details, manage their cart, and check order summaries with ease. The interface is clean, fast, and fully responsive across all devices. Frogato includes user authentication, profile management, and dynamic cart functionality. Built using React, Chakra UI, and Tailwind CSS, it focuses on performance and usability.",
     solution: "",
     techStack: [],
     imageUrl: "/frogato.png",
-    liveUrl: "https://alsiphat.netlify.app/",
-    githubUrl: "https://shahriar-30.github.io/Quriarbox-Courier-Service/",
+    liveUrl: "https://frogato.netlify.app/",
+    githubUrl: "https://github.com/Shahriar-30/Frogato-E_Com",
   },
   {
-    id: "1",
+    id: "2",
     title: "QuriarBox",
     problem:
       "A trusted provider of courier services. We deliver your products safely to your home in a reasonable time.",
@@ -25,7 +36,7 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Shahriar-30/Quriarbox-Courier-Service",
   },
   {
-    id: "2",
+    id: "3",
     title: "Creative",
     problem:
       "We Are Digital Product Design Agency. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
@@ -35,9 +46,8 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://shahriar-30.github.io/Creative-Agency/",
     githubUrl: "https://github.com/Shahriar-30/Creative-Agency",
   },
-
   {
-    id: "3",
+    id: "4",
     title: "Online Education-Web-Design",
     problem:
       "An Online Education Web Design project focusing solely on a React frontend with a fixed (non-responsive) layout.",
@@ -48,7 +58,7 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Shahriar-30/Online-Education-Web-Design",
   },
   {
-    id: "4",
+    id: "5",
     title: "TransPia",
     problem:
       "This is Language Translation app. A Language Translation App is a digital tool that converts text from one language to another in real-time.",
@@ -58,9 +68,8 @@ export const PROJECTS: Project[] = [
     liveUrl: "transpia.netlify.app",
     githubUrl: "https://github.com/Shahriar-30/TransPia",
   },
-
   {
-    id: "5",
+    id: "6",
     title: "Bazar List",
     problem: "This is a cost calculator for your daily shopping",
     solution: "",
@@ -70,7 +79,7 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Shahriar-30/Bazar-List",
   },
   {
-    id: "5",
+    id: "7",
     title: "Qwery- holiday time",
     problem:
       "You will be amazed if you take part in this sailing Komodo island tour package. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism.",
