@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import emailjs from "@emailjs/browser";
 
 const Contact: React.FC = () => {
   const [formState, setFormState] = useState({
@@ -8,11 +9,34 @@ const Contact: React.FC = () => {
   });
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  // console.log(process.env);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real app, send data to backend here
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 5000);
+
+    // try {
+    //   await emailjs.send(
+    //     process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+    //     process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+    //     {
+    //       from_name: formState.name,
+    //       from_email: formState.email,
+    //       message: formState.message,
+    //     },
+    //     "caeeZG_v9dMRmgdd5",
+    //   );
+
+    //   setSubmitted(true);
+
+    //   setFormState({ name: "", email: "", message: "" });
+    // } catch (error) {
+    //   console.error("Error:", error);
+    //   alert(
+    //     "There was an error sending your message. Please contact to Developer.",
+    //   );
+    // }
+
+    // setTimeout(() => setSubmitted(false), 5000);
   };
 
   return (
